@@ -16,9 +16,9 @@ const RecommandedItems = () => {
     }, [])
 
     return (
-        <div>
-            Recommended Items
-            <div className='grid grid-cols-5 gap-2 p-2'>
+        <div className='container mx-auto mt-6'>
+            <h2 className='text-2xl font-bold'>Recommended Items</h2>
+            <div className='grid grid-cols-5 gap-2 mt-6'>
                 {
                     products.map((product) => (
                         <ProductsCard

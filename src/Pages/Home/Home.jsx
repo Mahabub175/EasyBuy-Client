@@ -1,4 +1,5 @@
 import RecommandedItems from "./RecommandedItems/RecommandedItems";
+import SubscribeField from "./SubscribeField/SubscribeField";
 import SuppliersRegion from "./SuppliersRegion/SuppliersRegion";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     This is home
     <RecommandedItems></RecommandedItems>
     <SuppliersRegion></SuppliersRegion>
+    <SubscribeField></SubscribeField>
 
     
   </div>;

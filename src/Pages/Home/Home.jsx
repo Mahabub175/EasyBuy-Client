@@ -1,5 +1,13 @@
+import Category from "../Category/Category";
+
 const Home = () => {
-  return <div>This is home</div>;
+  return <div>
+    
+    <Category></Category>
+    
+  </div>;
+
+  
 };
 
 export default Home;

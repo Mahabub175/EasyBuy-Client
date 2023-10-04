@@ -4,7 +4,7 @@ import { TfiEmail } from "react-icons/tfi";
 const SubscribeField = () => {
     return (
         <div className='mt-6 bg-gray-200'>
-           <div className='py-5'>
+           <div className='py-10'>
            <div className='text-center '>
                 <h2 className='font-bold text-2xl '>Subscribe on our newsletter</h2>
                 <p className='my-2'>Get daily news on upcoming offers from many suppliers all over the world</p>

@@ -4,7 +4,7 @@ const ProductsCard = ({ product }) => {
     const { picture_url, price, name, category } = product
     return (
         <div
-            className=" group bg-white border hover:shadow-md transition dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7] "
+            className=" group bg-white border hover:shadow-md transition dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7] rounded-lg"
         >
             <div className="relative pt-[50%] sm:pt-[60%] lg:pt-[80%] overflow-hidden">
                 <img

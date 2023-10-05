@@ -1,9 +1,11 @@
 import { Button, Collapse, IconButton, Input } from "@material-tailwind/react";
 import { useState } from "react";
 import SideBar from "./Components/SideBar";
+import { FaCartShopping, FaClipboardList, FaUserLarge } from "react-icons/fa6";
+import { BiSolidMessageDetail } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
-  const [isSideBar, setIsSideBar] = useState(false);
 
   return (
     <div className="flex justify-between items-center container p-4 mx-auto my-5">
@@ -24,11 +26,11 @@ const NavBar = () => {
           Search
         </Button>
       </div>
-      <div className="hidden lg:flex justify-between items-center gap-4">
-        <div><p>Profile</p></div>
-        <div><p>Message</p></div>
-        <div><p>Orders</p></div>
-        <div><p>My Cart</p></div>
+      <div className="hidden lg:flex justify-between items-center gap-4 text-blue-gray-400">
+        <Link to={'/'}><div className="flex flex-col items-center gap-1"><FaUserLarge /><p className=" text-xs">Profile</p></div></Link>
+        <Link to={'/'}><div className="flex flex-col items-center gap-1"><BiSolidMessageDetail /><p className=" text-xs">Message</p></div></Link>
+        <Link to={'/'}><div className="flex flex-col items-center gap-1"><FaClipboardList /><p className=" text-xs">Orders</p></div></Link>
+        <Link to={'/'}><div className="flex flex-col items-center gap-1"><FaCartShopping /><p className=" text-xs">My Cart</p></div></Link>
       </div>
 
       

@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "name": "Product 1",
+      "category": "Electronics",
+      "price": 499.99,
+      "picture_url": "https://i.ibb.co/HgLCNLm/2-1.png"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "category": "Clothing",
+      "price": 29.99,
+      "picture_url": "https://i.ibb.co/Kcnj6X2/5.png"
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "category": "Home & Garden",
+      "price": 149.95,
+      "picture_url": "https://i.ibb.co/nbwtNkp/Bitmap.png"
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "category": "Books",
+      "price": 12.50,
+      "picture_url": "https://i.ibb.co/WBVyzJj/Bitmap-Pant.png"
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "category": "Toys",
+      "price": 24.99,
+      "picture_url": "https://i.ibb.co/hDskD7y/image-24.png"
+    },
+    {
+      "id": 6,
+      "name": "Product 6",
+      "category": "Furniture",
+      "price": 349.99,
+      "picture_url": "https://i.ibb.co/wdP5NX5/image-26.png"
+    },
+    {
+      "id": 7,
+      "name": "Product 7",
+      "category": "Sports & Outdoors",
+      "price": 79.95,
+      "picture_url": "https://i.ibb.co/crgKmfj/image-30.png"
+    },
+    {
+      "id": 8,
+      "name": "Product 8",
+      "category": "Beauty & Personal Care",
+      "price": 9.99,
+      "picture_url": "https://i.ibb.co/rMZDL1D/image-85.png"
+    },
+    {
+      "id": 9,
+      "name": "Product 8",
+      "category": "Beauty & Personal Care",
+      "price": 9.99,
+      "picture_url": "https://i.ibb.co/pwSr0ym/image-86.png"
+    },
+    {
+      "id": 10,
+      "name": "Product 8",
+      "category": "Beauty & Personal Care",
+      "price": 9.99,
+      "picture_url": "https://i.ibb.co/pftHB67/image-90.png5"
+    }
+  ]
+  
+  
+
+
+
+
+
+
+
+

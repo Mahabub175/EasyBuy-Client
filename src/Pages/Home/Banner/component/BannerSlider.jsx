@@ -40,7 +40,7 @@ const BannerSlider = () => {
   ];
 
   return (
-    <div className="w-[80%]">
+    <div className="w-full md:w-[80%]">
       <Slider {...settings}>
         {images.map((img, i) => (
           <div key={i}>

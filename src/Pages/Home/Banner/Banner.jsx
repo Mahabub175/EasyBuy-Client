@@ -23,10 +23,10 @@ const Banner = () => {
               </button>
             </div>
           </div>
-          <div className="bg-tertiary p-4 rounded-md mt-3 text-xl text-white">
+          <div className="bg-tertiary p-4 rounded-md mt-3 text-xl text-white text-center md:text-start">
             Get US $10 off <br /> with a new <br /> supplier
           </div>
-          <div className="bg-quaternary p-4 rounded-md mt-2 text-xl text-white">
+          <div className="bg-quaternary p-4 rounded-md mt-2 text-xl text-white text-center md:text-start">
             Send quotes with <br /> supplier <br /> preferences
           </div>
         </div>
